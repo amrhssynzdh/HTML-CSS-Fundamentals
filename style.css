@@ -55,9 +55,28 @@ h1 {
   font-style: italic;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: yellow;
+  font-size: 21px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+
+  position: absolute;
+  top: -30px;
+  right: -70px;
 }
 
 h3 {
