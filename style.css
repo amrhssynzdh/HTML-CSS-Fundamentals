@@ -51,7 +51,7 @@ h3 {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 25px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -198,4 +198,12 @@ h1 {
 
 nav {
   float: right;
+}
+
+/* Clearing Floats */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
 }
