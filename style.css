@@ -25,6 +25,7 @@ body {
 
 nav {
   font-size: 18px;
+  text-align: center;
 }
 
 article {
@@ -177,4 +178,24 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 22px;
+}
+
+.author {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
 }
