@@ -40,6 +40,31 @@
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+      }
+
+      .el {
+        /* Defaults:
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+
+        flex: 0 0 50px;
+      }
+
+      .el--1 {
+        align-self: flex-start;
+      }
+
+      .el--5 {
+        align-self: stretch;
+      }
+
+      .el--6 {
+        order: -1;
       }
     </style>
   </head>
