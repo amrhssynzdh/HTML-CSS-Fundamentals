@@ -40,10 +40,11 @@
         margin: 40px;
 
         /* CSS GRID */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr */
         display: grid;
-        grid-template-columns: 250px 250px 150px 150px;
-        grid-template-rows: 300px 200px;
-
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        height: 500px;
         /* gap: 20px; */
         column-gap: 20px;
         row-gap: 50px;
